@@ -1,0 +1,203 @@
+html, body{
+      background-color: #E9EBEE;
+}
+
+.wrapper{
+      width: 98%;
+      margin: auto;
+}
+
+.lwrapper{
+      width: 90%;
+      margin: auto;
+}
+
+.sigin-bg{
+      background-image: url('../img/bg.jpg');
+      background-color: #777!important;
+      background-blend-mode: multiply;
+      background-size: cover;
+      position: fixed;
+      height: 100%;
+      width: 100%;
+}
+
+.copyright{
+      bottom: 10px;
+      left: 24px;
+      position: fixed;
+}
+
+.version{
+      top: 10px;
+      right: 24px;
+      position: fixed;
+}
+
+.card-header{
+      padding: 2%;
+}
+
+.card-signin{
+      position: fixed;
+      height: 350px;
+      width: 350px;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+}
+
+.btn-full{
+      width: 100%;
+}
+
+/*Adds*/
+.card-ads {
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    z-index: 1000;
+    background-color: #fff;
+}
+.close-btn {
+    background-color: #DDD;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    z-index: 1;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+
+.font-light{
+      font-weight: lighter!important;
+}
+
+.margin-large-right{
+      padding-right: 500px;
+}
+
+.profile-pic{
+      position: absolute;
+      top: 250px;
+      left: 24px;
+}
+
+.profile-name{
+      position: absolute;
+      top: 200px;
+      left: 250px;
+}
+
+.btn-trasparent{
+      background-color: rgba(255, 255, 255, 0.3)!important;
+}
+
+.cover-photo{
+      background-image: url('../img/bg2.jpg');
+      background-color: #999!important;
+      background-blend-mode: multiply;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      padding: 2%;
+      height: 350px;
+}
+
+.tabs-style{
+      position: absolute;
+      right: 130px;
+      top: 330px;
+      width: 700px;
+}
+
+.timeline{
+      padding-top: 120px;
+}
+
+.icon-bg{
+      padding: 10px 18px 10px 18px;
+      border-radius: 50%;
+      font-size: 26px;
+}
+
+.margin-top{
+      margin-top: 10px!important;
+}
+
+.chatbox-header_bottom{
+      cursor: pointer;
+      position: fixed;
+      right: 24px;
+      bottom: 0;
+      z-index: 1000;
+      width: 300px;
+      display: none;
+}
+
+.chatbox{
+      background-color: #f2f2f2;
+
+      position: fixed;
+      right: 24px;
+      bottom: 0;
+      z-index: 1000;
+}
+
+.chatbox-header{
+      padding: 1px 2px 1px 2px;
+      cursor: pointer;
+}
+
+.chatbox-content{
+      height: 300px;
+      width: 300px;
+      padding: 10px 2px 8px 2px;
+      z-index: 99999!important;
+      overflow-y: scroll!important;
+      overflow-x: hidden;
+}
+
+
+.mymessage{
+      background-color: #fff;
+      padding: 5px;
+      width: 60%;
+      border-radius: 5px;
+      color: white;
+}
+
+.message-size{
+      font-size: 14px;
+}
+
+.time-recieve{
+      font-size: 12px;
+      color: grey;
+}
+
+.chatbox-input{
+      z-index: 99999!important;
+      background-color: #fff;
+}
+
+
+/*Star rating*/
+
+.on-hover-star:hover{
+      color: yellow;
+}
+
+.star-btn{
+      background-color: transparent!important;
+      box-shadow: none!important;
+      border: none!important;
+}
